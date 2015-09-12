@@ -21,3 +21,22 @@
 
 en:
   hello: "Hello world"
+  activerecord:
+    errors:
+      models:
+        room:
+          attributes:
+            title:
+              blank: "El campo Titulo no puede estar vacio"
+              too_short: "No puede ser menor a 5 caracteres"
+            description:
+              blank: "El campo Descripción no puede estar vacio"
+              too_long: "El campo Descripción no puede contener mas de 400 caracteres"
+            beds:
+              blank: "El campo Número de Camas no puede estar vacio"
+              not_a_number: "El campo Número de camas debe ser númerico"
+            guests:
+              blank: "El campo Número de huespedes no puede estar vacio"
+              not_a_number: "El campo Número de huespedes debe ser númerico"
+            image_url:
+              blank: "El campo Url de la Imagen no puede estar vacio"
