@@ -40,3 +40,6 @@ en:
               not_a_number: "El campo Número de huespedes debe ser númerico"
             image_url:
               blank: "El campo Url de la Imagen no puede estar vacio"
+            price_per_night:
+              blank: "El campo Precio por noche no puede estar vacio"
+              not_a_number: "El campo Precio por noche debe ser númerico"
